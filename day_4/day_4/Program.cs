@@ -24,6 +24,25 @@ namespace day_4
             {
                 Console.WriteLine("lielaks");
             }
+
+            string mainigais2 = "si ir virkne";
+
+            if(mainigais2 == "si ir virkne")
+            {
+                Console.WriteLine("vienads");
+            }
+            else
+            {
+                Console.WriteLine("nav vienads");
+            }    
+
+
+
+
+
+
+
+
             Console.ReadLine();
 
         }
