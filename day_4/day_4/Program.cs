@@ -38,12 +38,12 @@ namespace day_4
                  Console.WriteLine("nav vienads");
              }
              */
-            /*
+            
             string skaitlis;
             int skaitlis1 = 2;
             skaitlis = Console.ReadLine();
             skaitlis1 = Convert.ToInt16(skaitlis);
-
+            /*
             if(skaitlis1 > 5)
             {
                 Console.WriteLine("##");
@@ -56,7 +56,7 @@ namespace day_4
             Console.ReadLine();
             */
 
-            string skaitlis;
+           /* string skaitlis;
             int skaitlis1 = 2;
             skaitlis = Console.ReadLine();
             skaitlis1 = Convert.ToInt16(skaitlis);
@@ -90,8 +90,26 @@ namespace day_4
                     }
                 }
             }
+            */
 
+            switch (skaitlis1)
+            {
+                case 3:
+                    Console.WriteLine("trijsturis");
+                    break;
 
+                case 4:
+                    Console.WriteLine("četrsturis");
+                    break;
+
+                case 5:
+                    Console.WriteLine("piecsturis");
+                    break;
+
+                default:
+                    Console.WriteLine("kluda!");
+                    break;
+            }
 
 
            Console.ReadLine();
