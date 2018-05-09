@@ -38,7 +38,7 @@ namespace day_4
                  Console.WriteLine("nav vienads");
              }
              */
-            
+            /*
             string skaitlis;
             int skaitlis1 = 2;
             skaitlis = Console.ReadLine();
@@ -54,9 +54,48 @@ namespace day_4
             }
  
             Console.ReadLine();
-            
+            */
 
-            
+            string skaitlis;
+            int skaitlis1 = 2;
+            skaitlis = Console.ReadLine();
+            skaitlis1 = Convert.ToInt16(skaitlis);
+
+            if(skaitlis1 == 4)
+            {
+                Console.WriteLine("četrstūris");
+            }
+            else
+            {
+                if (skaitlis1 == 3)
+                {
+                    Console.WriteLine("trijstūris");
+                }
+                else
+                {
+                    if (skaitlis1 == 6)
+                    {
+                        Console.WriteLine("sešturis");
+                    }
+                    else
+                    {
+                        if (skaitlis1 == 5)
+                        {
+                            Console.WriteLine("piecstūris");
+                        }
+                        else
+                        {
+                            Console.WriteLine("out of range");
+                        }
+                    }
+                }
+            }
+
+
+
+
+           Console.ReadLine();
         }
+
     }
 }
