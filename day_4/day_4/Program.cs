@@ -6,7 +6,9 @@ namespace day_4
     {
         static void Main(string[] args)
         {
-            int mainigais = 3;
+           /* int mainigais = 3;
+            string convertes = mainigais.ToString();
+            mainigais. = Convert.ToInt16(convertes);
 
             // <
             // >
@@ -34,7 +36,25 @@ namespace day_4
             else
             {
                 Console.WriteLine("nav vienads");
-            }    
+            }
+            */
+
+            string skaitlis;
+            int skaitlis1 = 2;
+            skaitlis = Console.ReadLine();
+            skaitlis1 = Convert.ToInt16(skaitlis);
+
+            if(skaitlis1 > 5)
+            {
+                Console.WriteLine("##");
+            }
+            else
+            {
+                Console.WriteLine("#");
+            }
+            
+
+            
 
 
 
